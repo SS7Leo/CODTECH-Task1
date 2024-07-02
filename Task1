@@ -1,0 +1,60 @@
+# Import necessary libraries
+
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Load the dataset
+
+tips = sns.load_dataset("tips")
+
+# Display the first few rows of the dataset
+
+print("First few rows of the dataset:")
+print(tips.head())
+
+# Display summary information about the dataset
+
+print("\nSummary information about the dataset:")
+print(tips.info())
+
+# Display basic statistics of the dataset
+
+print("\nBasic statistics of the dataset:")
+print(tips.describe(include='all'))
+
+# Check for missing values
+
+print("\nMissing values in the dataset:")
+print(tips.isnull().sum())
+
+# Univariate Analysis - Numerical Variables
+
+print("\nHistograms for numerical variables:")
+tips.hist(bins=15, figsize=(15, 6), layout=(2, 2))
+plt.show()
+
+# Bivariate Analysis
+
+print("\nScatter plot for total_bill vs. tip:")
+plt.figure(figsize=(10, 6))
+sns.scatterplot(data=tips, x='total_bill', y='tip')
+plt.show()
+
+# Multivariate Analysis
+
+print("\nHeatmap to show correlations:")
+
+# Select only the numeric columns for correlation analysis
+
+numeric_tips = tips.select_dtypes(include=[np.number])
+plt.figure(figsize=(10, 6))
+sns.heatmap(numeric_tips.corr(), annot=True, cmap='coolwarm', vmin=-1, vmax=1)
+plt.show()
+
+# Correlation Analysis
+
+print("\nCorrelation matrix:")
+correlation_matrix = numeric_tips.corr()
+print(correlation_matrix)
