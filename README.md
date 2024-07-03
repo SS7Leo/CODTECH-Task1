@@ -13,7 +13,7 @@
 
 ##  Overview of the project
 
-###  Project: EXPLORATORY DATA ANALYSIS (EDA) on "Tips" Dataset
+###  Project: EXPLORATORY DATA ANALYSIS (EDA) ON "TIPS" DATASET
 The objective of Exploratory Data Analysis (EDA) is to gain insights into the data, uncover underlying patterns, identify anomalies, test hypotheses, and check assumptions through summary statistics and graphical representations.
 
 ###  Key Activities
