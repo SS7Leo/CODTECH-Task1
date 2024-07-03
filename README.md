@@ -49,6 +49,22 @@ The objective of Exploratory Data Analysis (EDA) is to gain insights into the da
 
 ![Screenshot 2024-07-03 074021](https://github.com/SS7Leo/CODTECH-Task1/assets/140295932/50b8759c-594b-4e1a-a892-378c9e5d6338)
 
+###  Program Explanation
+I recently explored the Seaborn "tips" dataset to practice data analysis and visualization. Here’s a quick overview of what I did:
+
+  - Loaded the Dataset: Utilized Seaborn to bring in the "tips" dataset.
+
+  - Initial Exploration: Displayed the first few rows and summary information using Pandas.
+
+  - Descriptive Statistics: Generated basic statistics for a quick overview.
+Checked for Missing Values: Ensured data cleanliness.
+
+  - Univariate Analysis: Visualized numerical variable distributions with histograms.
+
+  - Bivariate Analysis: Created a scatter plot to examine the relationship between total_bill and tip.
+
+  - Multivariate Analysis: Used a heatmap to show correlations between numerical variables.
+
 
 
 
