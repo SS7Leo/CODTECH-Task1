@@ -41,4 +41,14 @@ The objective of Exploratory Data Analysis (EDA) is to gain insights into the da
 
 ###  Output
 
+![Screenshot 2024-07-03 073855](https://github.com/SS7Leo/CODTECH-Task1/assets/140295932/99652590-c52b-4ed7-8327-bd6eb97ef099)
+
+![Screenshot 2024-07-03 073918](https://github.com/SS7Leo/CODTECH-Task1/assets/140295932/225b4911-90bc-49ca-a2e7-b287f5cf26b3)
+
+![Screenshot 2024-07-03 074006](https://github.com/SS7Leo/CODTECH-Task1/assets/140295932/f299da70-01c3-4a2a-9044-b334d196268d)
+
+![Screenshot 2024-07-03 074021](https://github.com/SS7Leo/CODTECH-Task1/assets/140295932/50b8759c-594b-4e1a-a892-378c9e5d6338)
+
+
+
 
