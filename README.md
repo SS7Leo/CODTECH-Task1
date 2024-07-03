@@ -65,6 +65,18 @@ Checked for Missing Values: Ensured data cleanliness.
 
   - Multivariate Analysis: Used a heatmap to show correlations between numerical variables.
 
+###  Key Insights of the Project
+  - No Missing Values: The dataset is complete with no missing values, simplifying the analysis.
+    
+  - Distribution of Numerical Variables: Both total_bill and tip are right-skewed, while size is mostly between 1 and 4.
+    
+  - Positive Correlation Between total_bill and tip: Higher total bills are associated with higher tips, which is expected.
+    
+  - Party Size Impact: Larger party sizes tend to have higher total bills and tips, though the correlation is weaker than that between total_bill and tip.
+    
+  - Correlation Insights: The heatmap and correlation matrix confirm that total_bill and tip have the strongest relationship among numerical variables.
+
+
 
 
 
